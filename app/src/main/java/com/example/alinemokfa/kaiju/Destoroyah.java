@@ -9,4 +9,8 @@ public class Destoroyah extends Kaiju {
     public Destoroyah(String name, int healthVal, int attackVal) {
         super(name, healthVal, attackVal);
     }
+
+    public String roar(){
+        return "Roar";
+    }
 }
